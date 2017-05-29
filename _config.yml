@@ -11,35 +11,37 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: Josh's personal site
-description: Flowing creativity &#x2192; Cascading bliss
+title: Eun Youb (Josh) Lee
+
+description: Biology &#x2192; Neuroscience &#x2192; Computer Science 
+
 owner:
-  name: Josh Lee # or company name
+  name: Josh Lee 
   email: josh@cs.tufts.edu
   url: http://joshleetufts.com
-first_published: 1996 # if migrating another site, the year of your first publish
-baseurl: "" # the subpath of your site, e.g. /blog
+first_published: 2017 
+baseurl: "" 
 url: "http://joshleetufts.com" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: Welcome!  
-  text: I hope you enjoy my collection
+  title: Aspiring Product Manager  
+  text: Please find me here to connect in social media!
+         
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
-closing-head: Thanks for visiting
-closing-para: Feel free to get in touch. Cheers!
+closing-head: Please leave a message of advice!
+closing-para: If everyone is moving forward together, then success takes care of itself. -Henry Ford
 
 # on all pages (and the first three you list display with greeting, if included)
-social:
-  twitter: https://twitter.com/arkadianriver
-  github: https://github.com/arkadianriver
-  linkedin-square: https://linkedin.com/in/garyfaircloth
-  facebook-official: https://facebook.com/gary.faircloth
-  google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
-  email: /contact/
+social: 
+  github: https://github.com/joshleetufts
+  linkedin-square: https://linkedin.com/in/curiousjosh
+  facebook-official: https://facebook.com/JoshLee93 
+  email: josh@cs.tufts.edu
+  tripadvisor: https://www.tripadvisor.com/members/joshleetufts
   #flickr:
   #instagram:
   #youtube-square:
@@ -71,7 +73,7 @@ social:
   #connectdevelop:
   #ils:
   #forumbee:
-  #tripadvisor:
+  
   #amazon:
 
 # if you use this repo's `ruby compose.rb` script to initiate new posts, put the
