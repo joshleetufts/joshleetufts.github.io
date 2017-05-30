@@ -50,7 +50,7 @@ end
 
 categories = Array.new
 if type=='w'
-  categories << 'works'
+  categories << 'project'
   puts <<-eoh
 
 Higher priority works are listed first and also get the same priority value
@@ -67,7 +67,7 @@ want it to have a priority under 0.5. What priority should it have?
     break
   end
 else
-  categories << 'topics'
+  categories << 'research'
   puts <<-eoh
 
 The first 10 featured posts are listed on the front page and get a higher

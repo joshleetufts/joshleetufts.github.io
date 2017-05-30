@@ -1,8 +1,8 @@
 ---
 key: 1
 title: Research
-permalink: /works/
-excerpt: Publications, Posters and Presentations 
+permalink: /research/
+excerpt: Publications, Posters and Presentations
 image: pic02.jpg
 background-image: pic02.jpg
 ---
@@ -15,16 +15,16 @@ if site.social.linkedin-square %}
 </div>{%
 endif %}
 {%
-if site.categories.works %}
+if site.categories.research %}
 <div class="table-wrapper">
   <table>
     <tbody>{%
-      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
+      include fn_groupsort_reverse.html unsorted=site.categories.research groupby='priority' sortby='date'
 %}{%  for work in sorted_list %}
       <tr>
-        <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
-        <td>{{ work.date | date: "%b %Y" }}</td>
-        <td>{{ work.excerpt | strip_html | truncatewords: 12 }}</td>
+        <td><b><a href="{{ research.url | prepend: site.baseurl }}">{{ research.title }}</a></b></td>
+        <td>{{ research.date | date: "%b %Y" }}</td>
+        <td>{{ research.excerpt | strip_html | truncatewords: 12 }}</td>
         <td>
           {% include techlist.html %}
         </td>
@@ -33,8 +33,8 @@ if site.categories.works %}
     </tbody>
   </table>
 </div>{%
-  if site.works_in_progress %}
-  <div class="works_inprogress">In-progress, more to come.</div>{%
+  if site.research_in_progress %}
+  <div class=.research_inprogress">In-progress, more to come.</div>{%
   endif %}{%
 endif
 %}
