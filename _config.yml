@@ -33,7 +33,7 @@ greeting:
 features-title: Featured topics
 # - displayed at the bottom
 closing-head: Please leave a message of advice!
-closing-para: If everyone is moving forward together, then success takes care of itself. -Henry Ford
+closing-para: Thank you for your help :) 
 
 # on all pages (and the first three you list display with greeting, if included)
 social: 
@@ -89,8 +89,8 @@ compose:
 # top, bottom, both, none
 navlinks: bottom
 
-# expecting more works? mark your list as in-progress
-works_in_progress: yes
+# expecting more research? mark your list as in-progress
+research_in_progress: yes
 
 # If you have custom extensions, specifically includes/_my/custom.scss,
 # set this to yes

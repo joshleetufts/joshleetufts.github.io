@@ -38,19 +38,19 @@ This site has two types of posts:
 - Works: portfolio entries
 
 eoh
-print "Is this a (t)opic or (w)ork? [t]: "
+print "Is this a (r)esearch or (p)roject? [r]: "
 type = ''
 while true
   type = gets
   type.strip!
-  unless (type == '' or /^[tw]$/.match(type)) then redo end
-  if type=='' then type = 't' end
+  unless (type == '' or /^[pr]$/.match(type)) then redo end
+  if type=='' then type = 'p' end
   break
 end
 
 categories = Array.new
-if type=='w'
-  categories << 'project'
+if type=='r'
+  categories << 'research'
   puts <<-eoh
 
 Higher priority works are listed first and also get the same priority value
@@ -67,7 +67,7 @@ want it to have a priority under 0.5. What priority should it have?
     break
   end
 else
-  categories << 'research'
+  categories << 'projects'
   puts <<-eoh
 
 The first 10 featured posts are listed on the front page and get a higher
@@ -140,7 +140,7 @@ print "\nPost excerpt: "
 excerpt = gets
 excerpt.strip!
 
-if type == 't'
+if type == 'p'
   print "\nPost author [" + author + "]: "
   theauth = gets
   theauth.strip!
