@@ -83,7 +83,7 @@ social:
 # path to Sublime's subl.exe.) Also, put your most common post extension.
 compose:
   editor: subl
-  extension: html
+  extension: md
 
 # choose where to put back and next links:
 # top, bottom, both, none
