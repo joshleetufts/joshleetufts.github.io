@@ -184,7 +184,7 @@ t = Time.new
 tstamp = t.strftime("%Y-%m-%d %H:%M:%S")
 dstamp = t.strftime("%Y-%m-%d")
 
-ext = cfgfile['compose']['extension'] ? cfgfile['compose']['extension'] : 'md'
+ext = cfgfile['compose']['extension'] ? cfgfile['compose']['extension'] : 'html'
 
 fname = dstamp + "-" + tslug + '.' + ext
 
