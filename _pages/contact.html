@@ -22,10 +22,7 @@ script: |
 ---
 
 <section>
-  <form id="sendemail" method="post" action="{{ site.data.tokens.mailaction }}">
-    <input type="hidden" value="dog" id="type1" />
-    <input type="hidden" value="cow" id="type2" />
-    <input type="hidden" value="cat" id="type3" />
+  <form id="sendemail" method="post" action="//formspree.io/josh@cs.tufts.edu">
     <div class="row uniform">
       <div class="6u 12u$(xsmall)">
         <input type="text" name="name" id="name" value="" placeholder="Name" />
