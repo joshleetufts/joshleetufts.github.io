@@ -1,4 +1,4 @@
-## joshleetufts.com 
+## eunyoub.com
 
 My personal web site is based off the http://html5up.net/spectral design by
 [@ajlkn](http://twitter.com/ajlkn).
