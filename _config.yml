@@ -21,7 +21,7 @@ owner:
   url: http://eunyoub.com
 first_published: 2017 
 baseurl: "" 
-url: "http://joshleetufts.com" # the base hostname & protocol for your site
+url: "http://eunyoub.com" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
